@@ -10,6 +10,7 @@ public class Main {
         try {
             String content = readUrl(url);
             System.out.println(content);
+            System.out.println(content.length());
         } catch (IOException e) {
             e.printStackTrace();
         }
